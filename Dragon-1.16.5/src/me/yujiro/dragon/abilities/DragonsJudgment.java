@@ -30,7 +30,7 @@ public class DragonsJudgment extends FireAbility implements AddonAbility {
     private Location origin, currentLoc, tornadoCenter;
     private Vector direction;
     private double helixAngle, tornadoTick;
-    private int activeTick; // Надежный счетчик для урона
+    private int activeTick; 
 
     public DragonsJudgment(Player player) {
         super(player);
